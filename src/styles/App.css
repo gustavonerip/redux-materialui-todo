@@ -1,0 +1,26 @@
+/* App.css */
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.App{
+  width: 100%;
+  max-width: 800px;
+  margin: 2% auto;
+}
+
+.container{
+  margin: 3% 0;
+}
+
+.container p{
+  margin-block: 1rem;
+}
+
+.flex-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -19,14 +19,14 @@ const TodoForm = ({ addTodo }) => {
   };
 
   return (
-    <div>
+    <div className='container flex-center'>
       <TextField
         label="New Todo"
         value={todoText}
         onChange={(e) => setTodoText(e.target.value)}
       />
       <Button variant="contained" color="primary" onClick={handleAddTodo}>
-        Add
+        +
       </Button>
     </div>
   );
